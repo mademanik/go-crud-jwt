@@ -1,2 +1,68 @@
-node_modules
-.idea
+node_modules/
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Virtual machine crash logs
+hs_err_pid*
+
+# Maven
+target/
+!src/main/resources/static/
+!src/main/resources/templates/
+
+# Gradle
+.gradle/
+build/
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+
+# Eclipse
+.project
+.classpath
+.c9/
+.settings/
+.springBeans
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# VS Code
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Test reports
+test-output/
+surefire-reports/
+
+# Spring Boot specific
+*.db
+*.h2.db
+*.mv.db
+*.trace.db
+
+# Environment / application config
+.env
+application-*.yml
+application-*.yaml
+application-*.properties
